@@ -14,7 +14,10 @@ const prefix = "-";
 let done = {};
 
 
-
+client.on("ready", () => {
+  console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
+  client.user.setGame(`ًWelCome`);
+});
 
 const sWlc = {}
 const premium = ['418059479003824128']
